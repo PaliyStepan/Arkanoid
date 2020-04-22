@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Arkanoid</title>
+	<meta name="description" content="Arkanoid">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<div class="games-grid">
+			<div class="games-grid_empty"></div>
+			<div class="games-grid__top">
+				<canvas id="mycanvas" width="640" height="360"></canvas>
+			</div>
+			<div class="games-grid__bottom">
+				<div class="btns">
+					<div class="btn btn__left jsBtnLeft"></div>
+					<div class="btn btn__fire jsBtnFire"></div>
+					<div class="btn btn__right jsBtnRight"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-game jsEndGameBlock">
+			<div class="end-game__info">
+				<div class="end-game__text"></div>
+				<div class="end-game__btn jsRestartGame">Начать заново</div>
+			</div>
+		</div>
+	
+
+
+	
+	<script src="js/GAMES__ARKANOID.js"></script>
+
+</body>
+</html>
